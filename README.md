@@ -1,4 +1,6 @@
-# Build:
-docker build -t gregogs/cuda:super_resolution-2.16.1 .
-# Run:
-docker run --gpus all -it --rm -v D:\dev\NeuralNet\Stable_difussion:/app gregogs/cuda:super_resolution-2.16.1
+# Super resolution
+## Docker container for super resolution
+This container is for super resolution in images.
+The image contains the basic python libraries and cuda drivers for gpu
+acceleration using cuda.
+The image has the tensorflow libraries and matplotlib pre-installed, also has the tensorflow hub for model download.
